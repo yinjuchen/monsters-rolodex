@@ -1,10 +1,13 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: rgb(88, 75, 75);
+  background: linear-gradient(180deg, #403a3a 0%, #584b4b 100%);
 }
 
 .app-title {
   text-align: center;
-  color: rgb(108, 234, 234);
+  color: #6ceaea;
+  font-size: 2rem;
+  margin: 24px 0;
+  letter-spacing: 1px;
 }

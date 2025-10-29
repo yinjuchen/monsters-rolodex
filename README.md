@@ -1,24 +1,35 @@
-# React + Vite
+# 🦾 Monsters Rolodex (React + Vite)
 
-### Introduction
+A simple React + Vite app that displays robot “technicians” fetched from an API, with real-time search filtering.
 
-An simple app build by React + Vite using function component 
+---
 
-### Features and components 
+## ✨ Features
 
-- Search Robot Technician by input name
-- Separate of Concern 
-- App: control the whole page
-- Card-list: the wrap of the card 
-- Card: the detail the detail of card
-- Search box: use onChangeHandler 
+- 🔍 Search robot technicians by name
+- ⚙️ Built with functional components and hooks
+- 🎨 Clean separation of concerns
+  - **App.jsx**: Main state management (fetch + filter)
+  - **CardList.jsx**: Displays list of cards
+  - **Card.jsx**: Individual monster card
+  - **SearchBox.jsx**: Input component for searching
 
-### Installation/Running the App
+---
 
-To embark on your Bookflow journey, follow these steps:
+## 🧑‍💻 Installation & Running
 
-1. Clone the repository: git clone `https://github.com/yinjuchen/monsters-rolodex.git`
-2. Navigate into the project directory: cd monsters-rolodex
-3. Install dependencies: npm install
-4. Launch the app: npm start
-5. Open http://localhost:3000 in your browser and dive in!
+```bash
+# 1. Clone the repo
+git clone https://github.com/yinjuchen/monsters-rolodex.git
+
+# 2. Go into the project folder
+cd monsters-rolodex
+
+# 3. Install dependencies
+npm install
+
+# 4. Run locally
+npm run dev
+
+# 5. Open in your browser
+http://localhost:5173
